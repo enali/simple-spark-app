@@ -1,0 +1,16 @@
+{
+  "server": {
+    "host": "192.168.106.14",
+    "username": "ubuntu"
+  },
+  "spark": {
+    "basedir": "/opt",
+    "version": "2.1.0",
+    "hadoop-version": "2.7"
+  },
+  "submit": {
+    "class": "SimpleApp",
+    "master": "local[2]",
+    "deploy-mode": "client"
+  }
+}
